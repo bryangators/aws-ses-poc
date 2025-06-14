@@ -1,0 +1,28 @@
+{
+  "name": "ses-poc",
+  "version": "1.0.0",
+  "description": "AWS Simple Email Service Proof of Concept",
+  "repository": {
+    "type": "git",
+    "url": "aws-ses-poc"
+  },
+  "license": "MIT",
+  "author": "Bryan Kristofferson",
+  "type": "typescript",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "test": "test"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sesv2": "^3.828.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "keywords": []
+}
